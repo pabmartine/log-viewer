@@ -1,0 +1,375 @@
+# English translations for Log Viewer
+# Copyright (C) 2025 Log Viewer Team
+# This file is distributed under the same license as the log-viewer package.
+# Log Viewer Team <team@logviewer.pabmartine>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: log-viewer 1.0\n"
+"Report-Msgid-Bugs-To: team@logviewer.pabmartine\n"
+"POT-Creation-Date: 2025-01-31 12:00+0000\n"
+"PO-Revision-Date: 2025-01-31 12:30+0000\n"
+"Last-Translator: Log Viewer Team <team@logviewer.pabmartine>\n"
+"Language-Team: English <en@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: log-viewer.py:75
+msgid "Log Viewer"
+msgstr "Log Viewer"
+
+#: log-viewer.py:278
+msgid "Show side panel (F9)"
+msgstr "Show side panel (F9)"
+
+#: log-viewer.py:284
+msgid "Open file (Ctrl+O)"
+msgstr "Open file (Ctrl+O)"
+
+#: log-viewer.py:290
+msgid "Search (Ctrl+F)"
+msgstr "Search (Ctrl+F)"
+
+#: log-viewer.py:296
+msgid "Print..."
+msgstr "Print..."
+
+#: log-viewer.py:303
+msgid "Application menu"
+msgstr "Application menu"
+
+#: log-viewer.py:309
+msgid "Auto-detect"
+msgstr "Auto-detect"
+
+#: log-viewer.py:310
+msgid "English"
+msgstr "English"
+
+#: log-viewer.py:311
+msgid "Español"
+msgstr "Spanish"
+
+#: log-viewer.py:312
+msgid "Language"
+msgstr "Language"
+
+#: log-viewer.py:315
+msgid "Preferences"
+msgstr "Preferences"
+
+#: log-viewer.py:316
+msgid "About"
+msgstr "About"
+
+#: log-viewer.py:385
+msgid "Main File"
+msgstr "Main File"
+
+#: log-viewer.py:419
+msgid "0 lines"
+msgstr "0 lines"
+
+#: log-viewer.py:425
+msgid "0 words"
+msgstr "0 words"
+
+#: log-viewer.py:431
+msgid "0 characters"
+msgstr "0 characters"
+
+#: log-viewer.py:479 log-viewer.py:507
+msgid "lines"
+msgstr "lines"
+
+#: log-viewer.py:480 log-viewer.py:508
+msgid "words"
+msgstr "words"
+
+#: log-viewer.py:481 log-viewer.py:509
+msgid "characters"
+msgstr "characters"
+
+#: log-viewer.py:516
+msgid "Open a log file"
+msgstr "Open a log file"
+
+#: log-viewer.py:522
+msgid "Drag a file here or use Ctrl+O to open it"
+msgstr "Drag a file here or use Ctrl+O to open it"
+
+#: log-viewer.py:529
+msgid "Open File"
+msgstr "Open File"
+
+#: log-viewer.py:535
+msgid "Recent files will appear here"
+msgstr "Recent files will appear here"
+
+#: log-viewer.py:549
+msgid "Search in file..."
+msgstr "Search in file..."
+
+#: log-viewer.py:560
+msgid "Previous"
+msgstr "Previous"
+
+#: log-viewer.py:566
+msgid "Next"
+msgstr "Next"
+
+#: log-viewer.py:597
+msgid "Tools"
+msgstr "Tools"
+
+#: log-viewer.py:625
+msgid "Filters"
+msgstr "Filters"
+
+#: log-viewer.py:635
+msgid "Text to filter"
+msgstr "Text to filter"
+
+#: log-viewer.py:641
+msgid "Filter lines..."
+msgstr "Filter lines..."
+
+#: log-viewer.py:649
+msgid "Create Filter Tab"
+msgstr "Create Filter Tab"
+
+#: log-viewer.py:658
+msgid "Highlighting"
+msgstr "Highlighting"
+
+#: log-viewer.py:668
+msgid "Text"
+msgstr "Text"
+
+#: log-viewer.py:674
+msgid "Word to highlight..."
+msgstr "Word to highlight..."
+
+#: log-viewer.py:683
+msgid "Color"
+msgstr "Color"
+
+#: log-viewer.py:695
+msgid "Highlighting mode"
+msgstr "Highlighting mode"
+
+#: log-viewer.py:700
+msgid "Word"
+msgstr "Word"
+
+#: log-viewer.py:701
+msgid "Line"
+msgstr "Line"
+
+#: log-viewer.py:716
+msgid "Add Highlight"
+msgstr "Add Highlight"
+
+#: log-viewer.py:729
+msgid "Highlights in this tab:"
+msgstr "Highlights in this tab:"
+
+#: log-viewer.py:741
+msgid "Clear Tab Highlights"
+msgstr "Clear Tab Highlights"
+
+#: log-viewer.py:783
+msgid "Open log file"
+msgstr "Open log file"
+
+#: log-viewer.py:788
+msgid "_Cancel"
+msgstr "_Cancel"
+
+#: log-viewer.py:789
+msgid "_Open"
+msgstr "_Open"
+
+#: log-viewer.py:794
+msgid "Log files (*.log, *.txt)"
+msgstr "Log files (*.log, *.txt)"
+
+#: log-viewer.py:799
+msgid "All files"
+msgstr "All files"
+
+#: log-viewer.py:828
+msgid "Error loading file"
+msgstr "Error loading file"
+
+#: log-viewer.py:863
+msgid "Print Settings"
+msgstr "Print Settings"
+
+#: log-viewer.py:874
+msgid "Font"
+msgstr "Font"
+
+#: log-viewer.py:877
+msgid "Font Size"
+msgstr "Font Size"
+
+#: log-viewer.py:886
+msgid "Margins"
+msgstr "Margins"
+
+#: log-viewer.py:889
+msgid "Margin (mm)"
+msgstr "Margin (mm)"
+
+#: log-viewer.py:900
+msgid "Cancel"
+msgstr "Cancel"
+
+#: log-viewer.py:905
+msgid "Print"
+msgstr "Print"
+
+#: log-viewer.py:1055
+msgid "Filter"
+msgstr "Filter"
+
+#: log-viewer.py:1069
+msgid "Close tab"
+msgstr "Close tab"
+
+#: log-viewer.py:1107
+msgid "New tab created"
+msgstr "New tab created"
+
+#: log-viewer.py:1107
+msgid "lines filtered with"
+msgstr "lines filtered with"
+
+#: log-viewer.py:1172
+msgid "full line"
+msgstr "full line"
+
+#: log-viewer.py:1172
+msgid "word only"
+msgstr "word only"
+
+#: log-viewer.py:1174
+msgid "Highlight added"
+msgstr "Highlight added"
+
+#: log-viewer.py:1174
+msgid "in tab"
+msgstr "in tab"
+
+#: log-viewer.py:1253
+msgid "line"
+msgstr "line"
+
+#: log-viewer.py:1253
+msgid "word"
+msgstr "word"
+
+#: log-viewer.py:1260
+msgid "Remove highlight"
+msgstr "Remove highlight"
+
+#: log-viewer.py:1365
+msgid "matches"
+msgstr "matches"
+
+#: log-viewer.py:1375
+msgid "No results"
+msgstr "No results"
+
+#: log-viewer.py:1395
+msgid "of"
+msgstr "of"
+
+#: log-viewer.py:1462
+msgid "General"
+msgstr "General"
+
+#: log-viewer.py:1467
+msgid "Choose the application interface language"
+msgstr "Choose the application interface language"
+
+#: log-viewer.py:1471
+msgid "Interface Language"
+msgstr "Interface Language"
+
+#: log-viewer.py:1493
+msgid "Appearance"
+msgstr "Appearance"
+
+#: log-viewer.py:1497
+msgid "Dark Theme"
+msgstr "Dark Theme"
+
+#: log-viewer.py:1498
+msgid "Use dark theme for the application"
+msgstr "Use dark theme for the application"
+
+#: log-viewer.py:1506
+msgid "Printing"
+msgstr "Printing"
+
+#: log-viewer.py:1507
+msgid "Configure default printing options"
+msgstr "Configure default printing options"
+
+#: log-viewer.py:1511
+msgid "Default Font Size"
+msgstr "Default Font Size"
+
+#: log-viewer.py:1512
+msgid "Font size for printed documents"
+msgstr "Font size for printed documents"
+
+#: log-viewer.py:1521
+msgid "Default Margin"
+msgstr "Default Margin"
+
+#: log-viewer.py:1522
+msgid "Page margin in millimeters"
+msgstr "Page margin in millimeters"
+
+# NEW TRANSLATIONS FOR MONITORING/FOLLOW LOGS FEATURE
+msgid "Monitoring"
+msgstr "Monitoring"
+
+msgid "Follow Logs"
+msgstr "Follow Logs"
+
+msgid "Automatically update when file changes (like tail -f)"
+msgstr "Automatically update when file changes (like tail -f)"
+
+msgid "Printing Error"
+msgstr "Printing Error"
+
+msgid "Close"
+msgstr "Close"
+
+#: log-viewer.py:1560
+msgid "Developer"
+msgstr "Developer"
+
+#: log-viewer.py:1567
+msgid "A simple and powerful log file viewer"
+msgstr "A simple and powerful log file viewer"
+
+#: log-viewer.py:1575
+msgid "Main Developer"
+msgstr "Main Developer"
+
+#: log-viewer.py:1579
+msgid "translator-credits"
+msgstr ""
+"Translated by:\n"
+"Log Viewer Team <team@logviewer.pabmartine>\n"
+"\n"
+"To contribute translations, visit:\n"
+"https://github.com/pabmartine/log-viewer"

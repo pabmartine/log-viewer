@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Log Viewer
+Comment=Visualiza y filtra archivos de log
+Exec=log-viewer
+Icon=com.pabmartine.LogViewer
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,67 @@
+app-id: com.pabmartine.LogViewer
+runtime: org.gnome.Platform
+runtime-version: '48'
+sdk: org.gnome.Sdk
+command: log-viewer
+
+finish-args:
+  - --share=ipc
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  - --filesystem=home:ro
+  - --filesystem=/var/log:ro
+  - --filesystem=/tmp
+  - --filesystem=xdg-documents:rw
+  - --filesystem=xdg-desktop:rw
+  - --filesystem=xdg-download:rw
+  - --talk-name=org.freedesktop.portal.*
+  - --talk-name=org.gtk.vfs.*
+
+modules:
+  - name: log-viewer
+    buildsystem: simple
+    build-commands:
+      - mkdir -p /app/bin
+      - mkdir -p /app/share/applications
+      - mkdir -p /app/share/icons/hicolor/scalable/apps
+      - mkdir -p /app/share/locale
+      - mkdir -p /app/share/metainfo
+      
+      # Create wrapper script
+      - |
+        cat > /app/bin/log-viewer << 'EOF'
+        #!/bin/bash
+        cd /app/bin
+        exec python3 log-viewer.py "$@"
+        EOF
+      
+      - chmod +x /app/bin/log-viewer
+      
+      # Install Python script
+      - cp log-viewer.py /app/bin/
+      
+      # Install desktop file
+      - install -D -m644 data/com.pabmartine.LogViewer.desktop /app/share/applications/com.pabmartine.LogViewer.desktop
+      
+      # Install icon
+      - install -D -m644 data/icons/hicolor/scalable/apps/com.pabmartine.LogViewer.svg /app/share/icons/hicolor/scalable/apps/com.pabmartine.LogViewer.svg
+      
+      # Install translations
+      - cp -r locale/* /app/share/locale/
+      
+      # Install metainfo
+      - install -D -m644 data/com.pabmartine.LogViewer.metainfo.xml /app/share/metainfo/com.pabmartine.LogViewer.metainfo.xml
+      
+      # Compile translations
+      - |
+        for po_file in /app/share/locale/*/LC_MESSAGES/log-viewer.po; do
+          if [ -f "$po_file" ]; then
+            mo_file="${po_file%.po}.mo"
+            msgfmt "$po_file" -o "$mo_file"
+          fi
+        done
+    
+    sources:
+      - type: dir
+        path: .

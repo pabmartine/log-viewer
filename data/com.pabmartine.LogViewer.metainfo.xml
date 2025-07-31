@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.pabmartine.LogViewer</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Log Viewer</name>
+  <name xml:lang="es">Visor de Logs</name>
+  <summary>A modern and powerful log file viewer</summary>
+  <summary xml:lang="es">Un visor de archivos de log moderno y potente</summary>
+  
+  <description>
+    <p>
+      Log Viewer is a modern, powerful, and user-friendly log file viewer built with Python and GTK4/Libadwaita, 
+      designed following GNOME Human Interface Guidelines.
+    </p>
+    <p xml:lang="es">
+      Log Viewer es un visor de archivos de log moderno, potente y fácil de usar, construido con Python y GTK4/Libadwaita, 
+      diseñado siguiendo las Guías de Interfaz Humana de GNOME.
+    </p>
+    <p>Features:</p>
+    <p xml:lang="es">Características:</p>
+    <ul>
+      <li>Real-time log monitoring (like tail -f)</li>
+      <li xml:lang="es">Monitoreo de logs en tiempo real (como tail -f)</li>
+      <li>Advanced search and highlighting</li>
+      <li xml:lang="es">Búsqueda avanzada y resaltado</li>
+      <li>Multiple filter tabs</li>
+      <li xml:lang="es">Múltiples pestañas de filtros</li>
+      <li>Professional printing support</li>
+      <li xml:lang="es">Soporte de impresión profesional</li>
+      <li>Dark and light theme support</li>
+      <li xml:lang="es">Soporte para temas oscuros y claros</li>
+      <li>Multi-language support</li>
+      <li xml:lang="es">Soporte multi-idioma</li>
+    </ul>
+  </description>
+  
+  <launchable type="desktop-id">com.pabmartine.LogViewer.desktop</launchable>
+  
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/pabmartine/log-viewer/main/snapshots/screenshot.png</image>
+      <caption>Main interface</caption>
+      <caption xml:lang="es">Interfaz principal</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/pabmartine/log-viewer/main/snapshots/screenshot-dark.png</image>
+      <caption>Dark theme</caption>
+      <caption xml:lang="es">Tema oscuro</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/pabmartine/log-viewer/main/snapshots/screenshot-sidebar.png</image>
+      <caption>Sidebar tools</caption>
+      <caption xml:lang="es">Herramientas del panel lateral</caption>
+    </screenshot>
+  </screenshots>
+  
+  <url type="homepage">https://github.com/pabmartine/log-viewer</url>
+  <url type="bugtracker">https://github.com/pabmartine/log-viewer/issues</url>
+  <url type="vcs-browser">https://github.com/pabmartine/log-viewer</url>
+  
+  <developer_name>pabmartine</developer_name>
+  <update_contact>team@logviewer.pabmartine</update_contact>
+  
+  <releases>
+    <release version="1.0.0" date="2025-01-31">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="es">Lanzamiento inicial</p>
+        <ul>
+          <li>Real-time log following (tail -f functionality)</li>
+          <li xml:lang="es">Seguimiento de logs en tiempo real (funcionalidad tail -f)</li>
+          <li>Advanced search and highlighting</li>
+          <li xml:lang="es">Búsqueda avanzada y resaltado</li>
+          <li>Multi-tab filtering</li>
+          <li xml:lang="es">Filtrado con múltiples pestañas</li>
+          <li>Professional printing support</li>
+          <li xml:lang="es">Soporte de impresión profesional</li>
+          <li>Multi-language support (EN/ES)</li>
+          <li xml:lang="es">Soporte multi-idioma (EN/ES)</li>
+          <li>Modern GTK4/Libadwaita interface</li>
+          <li xml:lang="es">Interfaz moderna GTK4/Libadwaita</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  
+  <content_rating type="oars-1.1"/>
+</component>
