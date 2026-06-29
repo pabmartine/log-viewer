@@ -1,0 +1,18 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flatpak build directories
+.flatpak-builder/
+build-dir/
+repo/
+
+# pytest cache
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/

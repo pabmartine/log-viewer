@@ -63,6 +63,12 @@
   <update_contact>team@logviewer.pabmartine</update_contact>
   
   <releases>
+    <release version="1.3.0" date="2026-06-29">
+      <description>
+        <p>Maintenance release: version bump and minor improvements</p>
+        <p xml:lang="es">Versión de mantenimiento: actualización de versión y mejoras menores</p>
+      </description>
+    </release>
     <release version="1.0.0" date="2025-01-31">
       <description>
         <p>Initial release</p>

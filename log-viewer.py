@@ -1473,7 +1473,7 @@ class LogViewerApplication(Adw.Application):
         about_dialog.set_transient_for(self.win)
         about_dialog.set_modal(True)
         about_dialog.set_application_name(_("Log Viewer"))
-        about_dialog.set_version("1.0.0")
+        about_dialog.set_version("1.3.0")
         about_dialog.set_developer_name(_("Developer"))
         about_dialog.set_copyright("© 2025")
         about_dialog.set_comments(_("A simple and powerful log file viewer"))
